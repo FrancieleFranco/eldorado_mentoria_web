@@ -1,0 +1,111 @@
+/* Configurações do html, body, a, p */
+html,
+body,
+a,
+p {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+input[type=text] {
+  outline: none;
+  text-align: none;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.conteudo .linha {
+  text-align: center;
+  margin: 38px 0px;
+  margin-left: 163px;
+}
+
+.conteudo .linha .logo-search {
+  padding-top: 132px;
+}
+
+.conteudo .linha .logo-search img {
+  width: 800px;
+  padding-bottom: 23px;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+
+.conteudo .linha .barra-busca .alinhar {
+  border: 1px solid #ccccccbb;
+  text-align: center;
+  display: inline-flex;
+  border-radius: 30px;
+  align-self: center;
+  padding: 10px 13px;
+}
+
+.conteudo .linha .barra-busca .alinhar div {
+  display: inline-flex;
+}
+
+.conteudo .linha .barra-busca div #simbolo-pesquisa {
+  width: 17px;
+}
+
+.conteudo .linha .barra-busca div input {
+  border: none;
+  margin-left: 5px;
+  padding-right: 300px;
+}
+
+.conteudo .linha .caixinha {
+  display: inline-flex;
+  margin-top: 26px;
+}
+
+.conteudo .linha .caixinha div {
+  border: 1px solid #efefef3f;
+  background-color: #efefef86;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.conteudo .linha .caixinha div:hover {
+  border: 1px solid #dedede;
+  filter: drop-shadow(1px 1px 1px #efefef3f);
+}
+
+.conteudo .linha .caixinha div p {
+  font-size: 14px;
+  color: #383838;
+}
+
+.conteudo .linha .texto-simples {
+  margin-bottom: 50%;
+}
+
+.conteudo .linha .texto-simples p {
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  height: 20px;
+  margin: auto;
+  bottom: 0;
+  position: fixed;
+  background-color: #dedede;
+}
